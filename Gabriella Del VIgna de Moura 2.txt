@@ -1,0 +1,50 @@
+
+cd ..
+dir
+cd Atividade01
+del Nota01.txt
+s
+del Nota02.txt
+s
+dir
+del /s Nota01.txt
+s
+del /s Nota02.txt
+s
+dir
+doskey /h
+cd ..
+ren Atividade01 Trabalho
+dir
+md Documentos
+dir
+cd Documentos
+md Projetos
+md Pessoais
+dir
+move Trabalhos Documentos
+cd ..
+dir
+move Trabalho Documento
+move Backup Documento
+dir
+cd Documento
+dir
+md Trabalho
+dir
+cd ..
+dir
+cd Documentos
+dir
+cd Lazer
+copy con Viagem.txt
+1- Canada
+2-Portugal
+3-Japao
+4-Coreia
+5-Italia
+
+dir
+cd ..
+tree/f
+doskey/history >> Vedilson.txt
