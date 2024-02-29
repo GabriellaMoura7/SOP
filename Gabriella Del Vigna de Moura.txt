@@ -1,0 +1,50 @@
+type Nota02.txt
+copy con Nota02.txt
+
+dir
+copy con Nota01.txt
+
+type Nota02.txt
+cd Nota02.txt
+type Nota02.txt
+dir
+copy con Nota02.txt
+esta e a pasta Nota02
+dir
+type Nota02
+cls
+color help
+color 80
+color 50
+color 40
+color c0
+color Df
+cls
+cd ..
+dir
+cd ..
+dir
+cd Desktop
+dir
+mkdir Backup
+cd Backup
+echo Nota01.txt
+dir
+copy con Nota01.txt
+
+copy con Nota02.txt
+
+cd ..
+dir
+cd Atividade01
+del Nota01.txt
+s
+del Nota02.txt
+s
+dir
+del /s Nota01.txt
+s
+del /s Nota02.txt
+s
+dir
+doskey /h
